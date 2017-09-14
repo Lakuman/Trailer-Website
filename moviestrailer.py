@@ -1,4 +1,4 @@
-import webbrowser
+﻿import webbrowser
 import medias
 import fresh_tomatoes
 
@@ -9,23 +9,28 @@ what_happened_to_monday = medias.Movie("What Happened to Monday",
 
 
 porco_rosso = medias.Movie("Porco Rosso",
-                                  "A pig drive planes",
-                                  "https://entertainednews1.files.wordpress.com/2012/05/porco_rosso1.jpg",
-                                  "https://youtu.be/awEC-aLDzjs")
+                           "A pig drive planes",
+                           "https://entertainednews1.files.wordpress.com/2012/05/porco_rosso1.jpg",
+                           "https://youtu.be/awEC-aLDzjs")
 
 
-Treasure_planet = medias.Movie("Treasure Planet",
-                                           "A young man full of dreams share exploring an unknown planet.",
-                                           "https://upload.wikimedia.org/wikipedia/en/7/7e/Treasure_Planet_poster.jpg",
-                                           "https://www.youtube.com/watch?v=EA68KUb4e7Q")
+treasure_planet = medias.Movie("Treasure Planet",
+                               "A young man full of dreams share exploring an unknown planet.",
+                               "https://upload.wikimedia.org/wikipedia/en/7/7e/Treasure_Planet_poster.jpg",
+                               "https://www.youtube.com/watch?v=EA68KUb4e7Q")
+
+man_of_steel = medias.Movie("Man of Steel",
+                            "It’s Supe… No he is just a savior.",
+                            "https://i.pinimg.com/736x/1b/40/da/1b40da5cfe4fae8c1cc9bfbacc6a19f3--superman--superman-stuff.jpg",
+                            "https://youtu.be/DIgYuPdZgpM")
 
 looper = medias.Movie("Looper",
-                                  "A man kill people comping from the future.One day he should kill himself.",
+                                  "A man kill people comping from the future. One day he should kill himself.",
                                   "https://images-na.ssl-images-amazon.com/images/I/5107O7vLGFL._SY445_.jpg",
                                   "https://youtu.be/Y0fCYfFHbAI")
 
 
-Batman = medias.Movie("Batman - The Dark Knight",
+batman = medias.Movie("Batman - The Dark Knight",
                                   "Batman is back and his worst enemy is here : Joker",
                                   "http://pm1.narvii.com/6177/97aba847342a87ecb566c55ecfe96d08859ad301_hq.jpg",
                                   "https://youtu.be/EXeTwQWrcwY")
@@ -35,7 +40,7 @@ the_silence_of_the_lambs = medias.Movie("The silence of the lambs",
                                                   "A police inspector ask help to a serial killer to find another serial killer.",
                                                   "https://images-na.ssl-images-amazon.com/images/I/71Hx1kJa5vL._RI_.jpg",
                                                   "https://youtu.be/ZWCAf-xLV2k")
-movies = [what_happened_to_monday, porco_rosso, Treasure_planet, looper, Batman, the_silence_of_the_lambs]
+movies = [what_happened_to_monday, porco_rosso, man_of_steel, treasure_planet,  looper, batman, the_silence_of_the_lambs]
 fresh_tomatoes.open_movies_page(movies)
 
 
